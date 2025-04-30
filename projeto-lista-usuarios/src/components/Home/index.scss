@@ -1,0 +1,52 @@
+.home-container {
+    header {
+        width: 100vw;
+        box-sizing: border-box;
+        padding: 5px 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        .title-theme {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+
+            h1 {
+                font-size: 25px;
+            }
+        }
+
+        button {
+            font-size: 30px;
+            border-radius: 50%;
+            border: 1px solid #f9688d;
+            background-color: #f9688d;
+            cursor: pointer;
+
+            svg {
+                padding: 5px;
+                background-color: transparent;
+            }
+        }
+
+        @media (min-width: 800px) {
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+        
+            .title-theme {
+                flex: 1;
+                margin-right: 20px;
+
+                h1 {
+                    font-size: 30px;
+                }
+            }
+            .search-bar {
+                width: auto;
+            }
+        }
+    }
+}
