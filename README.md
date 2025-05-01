@@ -1,6 +1,6 @@
 # 📋 Desafio Técnico - Lista de Usuários (Nobis)
 
-Este projeto foi desenvolvido como parte do processo seletivo para a vaga de Desenvolvedor na Nobis. A proposta consiste em criar uma aplicação que consuma dados de uma API pública e exiba uma lista de usuários com funcionalidades adicionais de busca e visualização de detalhes.
+Este projeto foi desenvolvido como parte do processo seletivo para a vaga de Desenvolvedor na Nobis. A proposta consiste em criar uma aplicação que consuma dados da API pública https://jsonplaceholder.typicode.com/users e exiba uma lista de usuários com funcionalidades adicionais de busca e visualização de detalhes.
 
 ## 🚀 Tecnologias utilizadas
 
